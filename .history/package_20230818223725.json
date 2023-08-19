@@ -1,5 +1,4 @@
 {
-  "homepage": "https://Yh010.github.io/Kanban-app-using-react",
   "name": "my-kanban-app",
   "version": "0.1.0",
   "private": true,
@@ -11,7 +10,6 @@
     "@types/node": "^16.18.41",
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
-    "gh-pages": "^6.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-dropdown-select": "^4.10.0",
@@ -22,8 +20,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
