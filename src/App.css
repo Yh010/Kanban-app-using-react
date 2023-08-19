@@ -1,0 +1,107 @@
+/* App Container */
+.AppContainer {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Navbar */
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #282c34;
+  color: white;
+}
+
+/* Dropdown Button */
+.dropdown-button {
+  position: relative;
+  display: inline-block;
+  background-color: #ca1c1c;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.dropdown-button:hover {
+  background-color: #b41212;
+}
+
+/* Dropdown Content */
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #b41414;
+  border: 1px solid #ccc;
+  width: 250px;
+  box-shadow: 0 4px 6px rgba(152, 161, 182, 0.1);
+  z-index: 1;
+  display: none;
+}
+
+.dropdown-button:hover .dropdown-content {
+  display: block;
+}
+
+/* Sub Dropdown */
+.sub-dropdown {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.sub-dropdown:last-child {
+  border-bottom: none;
+}
+
+.sub-dropdown a {
+  display: block;
+  padding: 5px 0;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.sub-dropdown a:hover {
+  color: #007bff;
+}
+
+/* Columns Container */
+.columns-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* Column */
+.column {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #c9d3d1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  max-width: 250px;
+}
+
+/* Card Container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Animation */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
