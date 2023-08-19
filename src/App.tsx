@@ -74,7 +74,6 @@ function App() {
     fetch("https://api.quicksell.co/v1/internal/frontend-assignment")
       .then((response) => response.json())
       .then((data) => {
-        // Modify each Ticket object to include the favicon property
         const ticketsWithFavicons = data.tickets.map((ticket: Ticket) => ({
           ...ticket,
           favicon: "URL_TO_FAVICON", // Replace with the actual URL
@@ -184,15 +183,6 @@ function App() {
       }
     }
   `;
-  /*const Navbar = styled.div`
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start; /* Align items to the top */
-  /* margin-bottom: 10px;
-    background-color: #e3f2fd;
-    padding: 10px;
-  `;*/
-
   const DropdownButton = styled.button`
     position: relative;
     display: flex;
